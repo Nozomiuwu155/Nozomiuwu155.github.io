@@ -50,8 +50,12 @@ p{
     background: #ffcb3a;
 }
 
-#small{
+#line_small{
     line-height: 1px;
+}
+
+#small{
+    font-size: 02.5px;
 }
 
 a{
@@ -77,6 +81,11 @@ video{
 
 audio{
     width: 500px;
+    margin: 30px auto;
+    display: block;
+}
+
+iframe{
     margin: 30px auto;
     display: block;
 }
