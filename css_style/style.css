@@ -10,7 +10,7 @@ body {
     border: 5px solid #fff2df;
 }
 
-h1,h2,p,a{
+h1,h2,h3,p,a{
     text-align: center;
 }
 
@@ -42,7 +42,7 @@ p{
     letter-spacing:3px;
 }
 
-#line{
+.line{
     margin: auto;
     border: 0;
     height: 2.5px;
@@ -50,12 +50,12 @@ p{
     background: #ffcb3a;
 }
 
-#line_small{
-    line-height: 1rem;
+.line_small{
+    line-height: 1px;
 }
 
-#small{
-    font-size: 1rem;
+.small{
+    font-size: 0.5rem;
 }
 
 a{
